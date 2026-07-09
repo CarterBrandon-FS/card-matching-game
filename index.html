@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Matching Game</title>
+  </head>
+  <body>
+    <main class="game-container">
+      <header>
+        <div class="game-info">
+          <h1>Card Match</h1>
+          <p>
+            Use the two attempts you have to try to find the two matching pairs
+            of cards.
+          </p>
+        </div>
+        <p class="status-panel">
+          Attempts left: <span id="attempts-count">3</span>
+        </p>
+      </header>
+
+      <section id="game-board" class="game-board"></section>
+
+      <footer class="results-section">
+        <h2 id="game-message"></h2>
+        <button id="reset-btn" class="game-btn">Start Over</button>
+      </footer>
+    </main>
+  </body>
+</html>
