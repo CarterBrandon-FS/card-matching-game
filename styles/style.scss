@@ -1,0 +1,23 @@
+// Style Guide setup
+
+$bg-green: #1c531d;
+$btn-blue: #238ab6;
+$font-main: "Open Sans", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-main;
+  background-color: $bg-green;
+  color: #fff;
+  margin: 0;
+  padding: 60px 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
